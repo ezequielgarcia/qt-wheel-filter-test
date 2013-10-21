@@ -1,0 +1,12 @@
+* Building
+
+    $ qmake
+    $ make
+
+* Running (example)
+
+    $ qtwheel -platform linuxfb \
+              -plugin tslib:/dev/input/event0 \
+	      -plugin EvdevMouse:/dev/input/event2 \
+	      -plugin EvdevMouse:/dev/input/event1
+

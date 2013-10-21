@@ -1,0 +1,5 @@
+env.sh
+*.o
+Makefile
+qtwheel
+ui_qtwheel.h
